@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#f8f3d4]">
+      <Header />
       <Hero />
       <ProjectsSection />
       <Footer />

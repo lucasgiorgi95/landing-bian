@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Período de Inicio",
+      "description": "Material didáctico para el período de adaptación escolar",
+      "image": "/imagen/PERIODO DE INICIO.png",
+      "category": "Material Didáctico",
+      "tools": ["Canva", "Ilustraciones", "Tipografía"]
+    },
+    {
+      "id": 2,
+      "title": "Post Venta de Pastelitos",
+      "description": "Diseño para redes sociales promocionando venta de pastelitos caseros",
+      "image": "/imagen/Post de facebook venta de pastelitos caseros celeste y blanco (1).png",
+      "category": "Redes Sociales",
+      "tools": ["Canva", "Diseño Gráfico", "Marketing"]
+    },
+    {
+      "id": 3,
+      "title": "Día de la Primavera",
+      "description": "Post de Instagram celebrando el día de la primavera",
+      "image": "/imagen/Post de Instagram Día de la Primavera Ilustrado Rosa (1).png",
+      "category": "Eventos Escolares",
+      "tools": ["Canva", "Ilustraciones", "Colores"]
+    },
+    {
+      "id": 4,
+      "title": "Post Moda Circular",
+      "description": "Diseño educativo sobre moda sustentable y circular",
+      "image": "/imagen/Post De Instagram Moda Circular Ilustración Beige (1).png",
+      "category": "Educación Ambiental",
+      "tools": ["Canva", "Ilustraciones", "Sostenibilidad"]
+    },
+    {
+      "id": 5,
+      "title": "Felices Fiestas Navideñas",
+      "description": "Post corporativo para celebrar las fiestas navideñas",
+      "image": "/imagen/Post Instagram Felices Fiestas Navidad Empresa (1).png",
+      "category": "Eventos Especiales",
+      "tools": ["Canva", "Festividades", "Corporativo"]
+    },
+    {
+      "id": 6,
+      "title": "Sticker Baby Shower",
+      "description": "Sticker decorativo para baby shower con temática de osito",
+      "image": "/imagen/Sticker Baby shower osito azul (1).png",
+      "category": "Celebraciones",
+      "tools": ["Canva", "Stickers", "Baby Shower"]
+    },
+    {
+      "id": 7,
+      "title": "Tarjeta de Cumpleaños",
+      "description": "Tarjeta vertical personalizada para felicitar cumpleaños",
+      "image": "/imagen/tarjeta vertical de feliz cumpleaños  (1).png",
+      "category": "Tarjetas",
+      "tools": ["Canva", "Personalización", "Celebraciones"]
+    },
+    {
+      "id": 8,
+      "title": "Historia del 9 de Julio",
+      "description": "Material educativo sobre la independencia argentina",
+      "image": "/imagen/Tu Historia 9 de Julio Ilustrada Celeste Claro y Blanca (1).png",
+      "category": "Historia Argentina",
+      "tools": ["Canva", "Educación", "Patriótico"]
+    }
+  ]
+}

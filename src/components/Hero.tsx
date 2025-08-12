@@ -17,6 +17,9 @@ const Hero = () => {
           className="absolute bottom-32 right-10 w-12 h-12 bg-[#00843d]/12 rounded-full animate-pulse"
           style={{ animationDelay: "0.5s" }}
         ></div>
+
+
+        
         <div
           className="absolute top-1/2 left-8 w-8 h-8 bg-[#00843d]/20 rounded-full animate-pulse"
           style={{ animationDelay: "1.5s" }}

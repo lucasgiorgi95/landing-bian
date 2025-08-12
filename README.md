@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Landing Page Portfolio - Bian
 
-## Getting Started
+Una landing page moderna y responsiva para mostrar diseños educativos y material didáctico creado en Canva.
 
-First, run the development server:
+## Características
 
+- ✨ Diseño moderno y limpio
+- 📱 Completamente responsivo
+- 🎨 Colores personalizados (#f8f3d4 y #00843d)
+- 🚀 Construido con Next.js 14 y Tailwind CSS
+- 📊 Datos de diseños cargados desde JSON
+- 🔗 Enlaces de contacto apropiados para profesora (Email, Instagram, WhatsApp)
+
+## Estructura
+
+- **Header**: Logo y enlaces de contacto
+- **Hero**: Sección principal con presentación como profesora
+- **Diseños**: Grid de cards con trabajos educativos
+- **Footer**: Información adicional y enlaces
+
+## Instalación y Uso
+
+1. Instalar dependencias:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Ejecutar en modo desarrollo:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Abrir [http://localhost:3000](http://localhost:3000) en el navegador
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Personalización
 
-## Learn More
+### Diseños
+Edita el archivo `src/data/projects.json` para agregar, modificar o eliminar diseños educativos.
 
-To learn more about Next.js, take a look at the following resources:
+### Colores
+Los colores principales están definidos en:
+- Background: `#f8f3d4`
+- Accent: `#00843d`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Imágenes
+Coloca las imágenes de los diseños (flyers, presentaciones) en la carpeta `public/images/` y actualiza las rutas en el JSON.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Estructura de Archivos
 
-## Deploy on Vercel
+```
+src/
+├── app/
+│   └── page.tsx          # Página principal
+├── components/
+│   ├── Header.tsx        # Componente del header
+│   ├── Hero.tsx          # Sección hero
+│   ├── ProjectCard.tsx   # Card individual de diseño
+│   ├── ProjectsSection.tsx # Sección de diseños
+│   └── Footer.tsx        # Componente del footer
+└── data/
+    └── projects.json     # Datos de los diseños educativos
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tecnologías
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 14
+- React 18
+- Tailwind CSS
+- TypeScript# landing-bian
